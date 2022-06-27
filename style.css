@@ -1,0 +1,255 @@
+
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('slider.css');
+@import url('range.css');
+
+body {
+	font-family: Roboto;
+	font-weight: 400;
+	color: #000000;
+}
+
+section {
+	margin-top: 80px;
+}
+
+.fundo-reembolso {
+	background-color: #0285C9;
+	border-radius: 15px;
+	padding: 90px !important;
+}
+
+.fundo-reembolso--img {
+    z-index: 9;
+    position: absolute;
+    margin-top: -50px;
+}
+
+.fundo-slider {
+	background-color: #F6F9FC;
+	padding: 70px 0 70px 0;
+}
+
+
+.fundo-reembolso--calculadora {
+	z-index: 9;
+	position: absolute;
+	background-color: #ffffff;
+	padding: 53px;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	margin-top:  -60px;
+}
+
+
+/* TEXTOS */
+
+.titulo-grande {
+	font-size: 42px;
+	font-family: Roboto;
+}
+
+.titulo-medio {
+	font-size: 32px;
+}
+
+.titulo-pequeno {
+	font-size: 22px;
+}
+
+p {
+	line-height: 22.4px;
+	font-weight: 400;
+}
+
+/* CORES */
+
+.cor-azul {
+	color: #041F8F;
+}
+
+.cor-azul--claro {
+	color: #0285C9;
+}
+
+.cor-azul--dark {
+	color: #303D63;
+}
+
+.cor-cinza {
+	color: #84888C;
+}
+
+.cor-cinza--escuro {
+	color: #2F2F2F;
+}
+
+.cor-branca {
+	color: #ffffff;
+}
+
+
+/* FORM */
+
+input {
+	border: 2px solid #84888C;
+	border-radius: 4px;
+	width: 100%;
+	padding: 16px 24px 16px 24px;
+	outline: none;
+}
+
+.modal-header {
+	border-bottom: 0px !important;
+}
+
+/* UTILIES */
+
+.middle {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: relative;
+}
+
+.espaco--08 {
+	margin-top: 8px;
+}
+
+.espaco--16 {
+	margin-top: 16px;
+}
+
+.espaco--24 {
+	margin-top: 24px;
+}
+
+.espaco--32 {
+	margin-top: 32px;
+}
+
+.espaco--230 {
+	margin-top: 230px;
+}
+
+.espaco--94 {
+	margin-top: 94px;
+}
+
+.button-azul--claro {
+	background: #0285C9;
+	border-radius: 5px;
+	padding: 16px 35px;
+	font-size: 16px;
+	color: #ffffff;
+	outline: none;
+	border:  0;
+}
+
+.button-azul--escuro {
+	background: #041F8F;
+	border-radius: 5px;
+	padding: 16px 35px;
+	font-size: 16px;
+	color: #ffffff;
+	outline: none;
+	border:  0;
+}
+
+
+.button-azul--escurowide {
+	width: 100% !important;
+}
+
+
+/* MODAL */
+
+.modal-dialog	{
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25) !important;
+	border-radius: 10px !important;
+}
+
+.btn-close {
+	position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 0.5em !important;
+    height: 0.5em !important;
+    z-index: 99999;
+}
+
+
+/* POST */
+
+.ultimopost {
+	overflow: hidden;
+	z-index: 9999;
+	position: relative;
+	height: 410px;
+}
+
+.ultimopost--over {
+  left: 0;
+  padding: var(--spacing-l);
+  position: absolute;
+  bottom: 0;
+  z-index: 99;
+  padding: 20px 20px 0px 20px;
+}
+
+.ultimopost--background {
+  background-size: cover;
+  background-position: center;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 6px;
+}
+
+.ultimopost--background__degrade {
+	position: absolute;
+	z-index: 9;
+	border-radius: 6px;
+	  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* POST */ 
+
+footer {
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+
+
+
+
+/* POST */ 
+
+
+@media (max-width: 576px) { 
+
+	.fundo-reembolso {
+		padding: 10px !important;
+		border-radius: 0 !important;
+	}
+
+
+	.button-azul--claro {
+		width: 100%;
+	}
+
+
+	.espaco--230 {
+	margin-top: 40px;
+}
+
+
+
+}
